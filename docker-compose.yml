@@ -20,7 +20,7 @@ services:
     depends_on:
       - mbos
     ports:
-      -8080:80
+      - 7070:80
     environment:
       POSTGRES_DB: mydatabase
       POSTGRES_USER: divya raj
